@@ -1,6 +1,8 @@
+var game;
+
 // creates a new game before each spec
 beforeEach(function () {
-  var game = new TennisGame("Aaron" , "Avi");
+  game = new TennisGame("Aaron" , "Avi");
 });
 
 // resets players scores after each spec
