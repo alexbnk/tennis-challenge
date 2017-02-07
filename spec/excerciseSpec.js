@@ -1,5 +1,9 @@
-var game;
-
+function TennisGame(playerOneName, playerTwoName) {
+    this.playerOneName = playerOneName;
+    this.playerOneScore = 0;
+    this.playerTwoName = playerOneName;
+    this.playerTwoScore = 0;
+}
 // creates a new game before each spec
 beforeEach(function () {
   game = new TennisGame("Aaron" , "Avi");
